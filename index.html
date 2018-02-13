@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
+        <!--libraries-->
+        <script type="text/javascript" src="js/lib/three.min.js"></script>
+        <script type="text/javascript" src="js/lib/dat.gui.min.js"></script>
+        <script type="text/javascript" src="js/lib/OBJLoader.js"></script>
+        <script type="text/javascript" src="js/lib/OrbitControls.js"></script>
+        <!--tools-->
+        <script type="text/javascript" src="js/utils/AudioAnalyzer.js"></script>
+        <script type="text/javascript" src="js/utils/ThreeSharedRenderer.js"></script>
+        <script type="text/javascript" src="js/utils/DeviceChecker.js"></script>
+        <script type="text/javascript" src="js/utils/MouseHandler.js"></script>
+        <!--postprocessing-->
+        <script src="js/postp/SSAOShader.js"></script>
+    		<script src="js/postp/CopyShader.js"></script>
+    		<script src="js/postp/EffectComposer.js"></script>
+    		<script src="js/postp/RenderPass.js"></script>
+    		<script src="js/postp/ShaderPass.js"></script>
+    		<script src="js/postp/MaskPass.js"></script>
+    		<script src="js/postp/SSAOPass.js"></script>
+        <!--shaders-->
+        <script type="text/javascript" src="js/shaders/shared.vert.js"></script>
+        <script type="text/javascript" src="js/shaders/brush.frag.js"></script>
+        <script type="text/javascript" src="js/shaders/trace.frag.js"></script>
+        <script type="text/javascript" src="js/shaders/final.frag.js"></script>
+        <!--objects-->
+        <script type="text/javascript" src="js/PaintBoard.js"></script>
+        <script type="text/javascript" src="js/Ctrl.js"></script>
+        <!--main-->
+        <script type="text/javascript" src="js/main.js"></script>
+        <!--css-->
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+    </head>
+    <body>
+        <div id="logo"><img src="assets/gobi.svg" alt="Gobi" width="96" height="19.2"></div>
+        <div id="info">Treehouse Pebble Sound/Paint Tool</div>
+        <canvas></canvas>
+    </body>
+</html>
